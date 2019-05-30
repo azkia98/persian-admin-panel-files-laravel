@@ -8,11 +8,8 @@
     ],
     "require": {},
      "autoload": {
-        "classmap": [
-        ],
         "psr-4": {
-            "App\\": "app/",
-            "Azkia\\AdminUI\\": "packages/azkia/admin-ui/src/"
+            "Azkia\\AdminUI\\": "src/"
         }
     }
 }
