@@ -30,7 +30,7 @@ class AdminUIServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/assets' => base_path('public/admin/'),
             __DIR__.'/views' => base_path('resources/views/'),
-        ]);
+        ],'admin-ui-panel');
         
         
 
