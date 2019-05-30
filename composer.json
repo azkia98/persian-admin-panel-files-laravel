@@ -1,0 +1,18 @@
+{
+    "name": "mahdi/admin-ui",
+    "authors": [
+        {
+            "name": "Mahdi Ebrahimi",
+            "email": "azkia@iran.ir"
+        }
+    ],
+    "require": {},
+     "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Azkia\\AdminUI\\": "packages/azkia/admin-ui/src/"
+        }
+    }
+}
