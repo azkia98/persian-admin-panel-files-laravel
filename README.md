@@ -9,6 +9,9 @@ It's provide this [UI panel](https://github.com/Hesammousavi/PersianAdminLTE)
 
 ## installation
 
+```
+composer require azkia/admin-ui
+```
 
 Add this line to app.php in providers.
 ```php
